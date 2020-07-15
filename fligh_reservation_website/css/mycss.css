@@ -1,0 +1,28 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    min-height: 100%;
+}
+
+#footer {
+
+    font-family: "Times New Roman", Georgia, serif;
+    font-style: italic;
+    font-size: 1em;
+    position: absolute;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    padding-top: 0.3em;
+    margin-bottom: 0.2em; /
+    min-width: 30em;
+    min-height: 2em;
+    padding-left: 1em;
+    z-index: 0;
+}
+
